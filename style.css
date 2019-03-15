@@ -1,0 +1,107 @@
+/*
+_______________________________________________________
+Centro Federal de Educação Tecnológica de Minas Gerais
+Programação WEB: Como se tornar um ninja
+Alunas: Daniele Lima, Daniela Lourenço
+_______________________________________________________
+Estilos gerais da página */
+html,body{
+  min-height: 100%;
+}
+
+body{
+  margin: 0 auto;
+  font-family: "Arial";
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+iframe, img:not(logomarca){
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+#logotipo{
+  width: 200px;
+  margin-left: 9%;
+  margin-right: 9%;
+  float:left;
+}
+.clear { clear: both;}
+
+h1{
+  padding-top: 60px;
+  color: black;
+  font: bold 34px Arial,serif;
+}
+h2{
+  margin-top: 25;
+  color: black;
+  font: bold 25px Arial,serif;
+}
+
+a:link{
+  text-decoration:none;
+  color:#66ffff;
+}
+a:visited{
+  text-decoration:none;
+  color:red;
+}
+a:hover{
+  color:#0000ff
+  background-color: #ffff;
+  text-decoration: underline;
+}
+a:active{
+  text-decoration:none;
+}
+
+.nota{
+  opacity:0.5;
+}
+
+.passo{
+  background: rgb(230, 230, 230);
+  color: red;
+  padding: 1px 15px 1px 15px;
+  font-size: 30px;
+}
+
+a[href^="http"] {
+	display: inline-block;
+	background-image: url(img/globo.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 18px;
+}
+
+.block-title{
+  background-color: #009999;
+  clear: left;
+}
+.block-create{
+    background-color: #06406c;
+}
+.scrollblock{
+  margin: 0;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+p.initial{
+  font-family:Lucida,cursive;
+  color: #000;
+  text-align: center;
+  font-size: 21px;
+}
+
+p,h2,em,ul,ol{
+  font-family:Lucida,cursive;
+  font-size: 18px;
+  margin-left: 9%;
+  margin-right: 9%;
+}
